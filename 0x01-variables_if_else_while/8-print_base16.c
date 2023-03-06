@@ -5,18 +5,20 @@
  * main - main block
  * Description: prints all single digit numbers of base 10
  * starting from 0, followed by a new line
- * Return: 0
+ * Return: always 0 (Success)
  */
 int main(void)
 {
-	char c = 'z';
+	char ch;
 
-	while (c >= 'a')
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		putchar(c);
-		c--;
+		putchar(ch);
 	}
-
+	for (ch = á'; ch <= 'f '; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
