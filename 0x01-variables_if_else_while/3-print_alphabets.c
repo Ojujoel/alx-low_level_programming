@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlid.h>
+
 /**
  * main - main block
  * Description: print the alphabet in lower case
